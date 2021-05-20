@@ -30,7 +30,13 @@ ul.skills li {
 
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-image {
+  /* height: 50%; */
+  /* margin: auto; */
 }
 
 @media screen and (min-width: 640px) {
@@ -42,5 +48,8 @@ ul.skills li {
 @media only screen and (max-width: 500px) {
   #content {
     padding: 10px 40px;
+  }
+  #email, #github {
+    max-width: 100%;
   }
 }
