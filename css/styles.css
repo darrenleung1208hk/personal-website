@@ -13,7 +13,11 @@ html, body {
   height: 100%;
 }
 
-.skills li {
+ul.skills {
+  margin: 0;
+}
+
+ul.skills li {
   display: inline;
   margin-right: 20px;
 }
@@ -26,6 +30,6 @@ html, body {
 
 @media only screen and (max-width: 500px) {
   #content {
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
 }
