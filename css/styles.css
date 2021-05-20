@@ -13,6 +13,12 @@ html, body {
   height: 100%;
 }
 
+#email, #github {
+  flex: 1;
+  margin: 10px;
+  max-width: 30%;
+}
+
 ul.skills {
   margin: 0;
 }
@@ -20,6 +26,11 @@ ul.skills {
 ul.skills li {
   display: inline;
   margin-right: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 640px) {
