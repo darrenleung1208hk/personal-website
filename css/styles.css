@@ -39,6 +39,10 @@ ul.skills li, ul.stack li {
   margin-right: 20px;
 }
 
+.expand-button {
+  margin: 0 !important;
+}
+
 .root {
   margin-bottom: 10px;
 }
