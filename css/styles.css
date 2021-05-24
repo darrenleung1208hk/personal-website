@@ -1,7 +1,13 @@
-html, body {
-  height: 100%;
-  overflow: hidden; 
-  /* background-image: url('../images/backgroupnd.jpg'); */
+html {
+  min-height: 100%;
+  display: flex;
+}
+
+body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
 }
 
 #title {
@@ -19,19 +25,36 @@ html, body {
   max-width: 30%;
 }
 
-ul.skills {
+#portfolio-item-features li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+ul.skills, ul.stack {
   margin: 0;
 }
 
-ul.skills li {
+ul.skills li, ul.stack li {
   display: inline;
   margin-right: 20px;
 }
 
+.root {
+  margin-bottom: 10px;
+}
+
 .row {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 @media screen and (min-width: 640px) {
